@@ -1,0 +1,66 @@
+input{
+  background-color: white;
+  width: 300px;
+  height: 40px;
+  border: 3px solid  #1a75ff;
+}
+
+button{
+  padding: 10px 20px;
+  background-color:  #1a75ff;
+  color: white;
+  border: 0px;
+}
+
+.input-style{
+  padding: 50px 0;
+  
+}
+input[type=text]{
+  font-size: 1.7rem;
+  padding-left: 10px;
+  
+}
+.search-text{
+  font-size: 2rem;
+  font-weight: 600;
+  color:  #00802b;
+}
+
+.article-item{
+  
+}
+
+.container{
+  padding: 20px 10px;
+  //display: none;
+}
+.well{
+  padding: 0 20px;
+ margin-bottom: 5px; 
+  //display: none;
+}
+.container h2{
+  display: none;
+}
+.hide{
+  display: none;
+}
+
+a{
+  text-align: right;
+ 
+  display: block;
+  font-weight: bold;
+  
+}
+
+article[id*="item-"]:hover{
+   -webkit-transition: background-color 1s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s;
+   transition: border 1s;
+  background-color: white;
+  //font-weight: bold;
+  box-shadow: 3px 3px 0px #1a75ff;
+  border: 1px solid #1a75ff;
+}
